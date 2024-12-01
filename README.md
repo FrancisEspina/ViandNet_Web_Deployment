@@ -1,4 +1,4 @@
-#ViandNet: A Food Classification System using Two-Color
+# **ViandNet: A Food Classification System using Two-Color**
  Space Input Parallel CNN-SVM model
 1.  Open the ViandNet the directory.
 2.  Open the application by running this command
