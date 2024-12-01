@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.box {
+  position: fixed;
+  left: 0;
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: auto;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #0b0c1b;
+  z-index: -1; /* Behind other elements */
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #252525;
+}
+
+/* .container {
+  text-align: center;
+  padding: 40px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+} */
+
+h3 {
+  text-align: left;
+  padding: 3px;
+  padding-bottom: 20px;
+}
+
+input[type="file"] {
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navbar-brand {
+  font-family: "Poppins", sans-serif;
+  font-size: xx-large;
+  font-weight: bold;
+  background-repeat: no-repeat; /* Prevent the icon from repeating */
+  padding-left: 40px; /* Adjust the padding as necessary to make space for the icon */
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#image-preview {
+  margin-top: 20px;
+  max-width: 50%;
+  height: auto;
+  text-align: center;
+}
+
+p {
+  text-align: left;
+  color: black;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+
+.card {
+  padding: 50px;
+  text-align: center;
+  margin: 20px;
+  margin-top: 25px;
+}
+
+#main-container {
+  float: inline-start;
+  display: flex;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adds a shadow effect on hover */
+}
+
+li {
+  text-align: left;
+}
